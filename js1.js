@@ -8,16 +8,8 @@ function add() {
 
 	console.log("addZ");
 	array.add('z');
-	// console.log("array: " + JSON.stringify(array));
-	print();
+	 console.log("array: " + JSON.stringify(array));
 }
-
-
-function print() {
-
-	console.log("array: " + JSON.stringify(array));	
-}
-
 
 module.exports = {
 	letters: array, 
