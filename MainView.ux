@@ -1,0 +1,11 @@
+<App>
+	<JavaScript File="js2.js" />
+	<JavaScript File="js1.js" />
+	<StackPanel>
+		<Text Value="{val}" />
+		<Text Value="{val2}" />
+
+		<Button Text="Add" Clicked="{add}"/>
+		<Button Text="Save" Clicked="{save}"/>
+	</StackPanel>
+</App>
